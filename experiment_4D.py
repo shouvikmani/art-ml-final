@@ -149,10 +149,10 @@ if __name__ == "__main__":
   pairs = {
     '01': [theta_01, theta_10],
     '02': [theta_02, theta_20],
-    '03': [theta_03, theta_03],
-    '12': [theta_12, theta_12],
-    '13': [theta_13, theta_13],
-    '23': [theta_23, theta_23],
+    '03': [theta_03, theta_30],
+    '12': [theta_12, theta_21],
+    '13': [theta_13, theta_31],
+    '23': [theta_23, theta_32],
   }
 
   def plot(selected_idx):
